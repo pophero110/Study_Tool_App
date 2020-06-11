@@ -1,0 +1,26 @@
+{
+  "name": "study-tool",
+  "version": "1.0.0",
+  "description": "Personal Study Tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon --ignore tests/ src/app.js -e hbs,js",
+    "test": "nodemon --ignore src/ --exec mocha --grep update tests/routes/point"
+  },
+  "author": "Jeff Ou",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.17",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "mocha": "^7.2.0",
+    "supertest": "^4.0.2"
+  }
+}

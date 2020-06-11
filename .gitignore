@@ -1,0 +1,4 @@
+node_modules
+tests/
+config/dev.env
+config/test.env
